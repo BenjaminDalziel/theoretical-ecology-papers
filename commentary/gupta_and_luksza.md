@@ -33,3 +33,7 @@ They also want the f_i for each strain to change based on deleterious mutations 
 The value of the cross-immunity function depends on changes in strain i and in strain j (a_i and a_j).
 $$ W_v = X_v(t+1)/X_v(t) $$. The predicted W_v for some clades is greater than one (mostly because antigenic mutations appear in the context of a lineage that has had more fitness-enhancing mutations recently).
 
+## Ben (in progress)
+Gupta et al. address the question of how distinct lineages of an infectious pathogen can maintain and cocirculate despite rapant opportunities for the exhange of genetic information which, despite some countervailing processes should homogenize distinc strains. They use a simple mathematical model which assumes the dominant actor in the process is the host immune system, and which assumes no spatial structure in the host population (and thus no spatial constraints on genetic exchange).
+
+
