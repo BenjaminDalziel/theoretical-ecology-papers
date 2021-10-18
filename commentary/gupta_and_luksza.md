@@ -46,5 +46,11 @@ This paper investigates the ability for infectious agents that have some method 
 ### A predictive fitness model for influenza
 This paper discusses the ability of a model to predict the predominant strands of influenza from one year to the next by considering the evolutionary tree of clades of influenza. The predictions of the futures of known clades are given by averaging the expectations from equiprobable trees, and this prediction is limited to only the following year due to the inability to predict new mutations arising over longer periods of time. In exploring the evolution of influenza strains, the paper finds that high-fitness clades tend to seed more high-fitness clades, so that clades arising close to the trunk of the evolutionary tree are more likely to persist through beneficial mutations than those arising further from the trunk. The model can be used in vaccine strain selection by taking into account cross-immunity between a vaccine strain and the circulating strains in a season.
 
+##Bryan's Quick 'n' Dirty Summaries
 
+###Gupta: 
+Modeled an infectious disease that has 2 loci at 2 different alleles, ax and by. Depending on cross protection of allele – ie whether someone immune to ax has protection against ay or bx – either resulted in all four recombinations persisted equally, or just the original ax and by strains persist. Authors also compared their results to a phenomenon observed in N. meningitidis, where specific recombinations of the bacterium where more prolific than others. I’d push back on the idea that they ‘tested the model,’ however, given they didn’t compare their simulated data directly with collected data. Rather it was merely a demonstration of the phenomenon in real life.
+
+###Luksza: 
+Used clades of influenza instead of strains to model evolution of the virus (clades being a cluster of strains with a common ancestor with up to 5 years of history). Clades were based on epitope and non epitope characteristics. Year to year predictions were highly accurate when compared to data. Further, predictions could be used to inform vaccine strain choices (although I would argue the figure they created for vaccine selection was not intuitive to understand, grumble grumble). Similar to Gupta, this model considers cross-immunity as a factor for strain evolution.
 
