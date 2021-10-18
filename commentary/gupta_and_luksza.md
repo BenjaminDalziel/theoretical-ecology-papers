@@ -28,8 +28,8 @@ This uncertainty is very important in my work as one of the things I am thinking
 ## Rachael 
 Gupta et al. discuss how cross-protection contributes to a set of discordant strains becoming dominant. (Discordant strains don't have shared alleles for immmunologically important loci). When cross-protection is zero, all strains equilibrate at the same level, given that they have the same R_0 (the authors call this symmetric equilibrium). To test this theoretical result, they use data for a pathogen with two important epitopes (with eight and 14 families, respectively). The null hypothesis that there is random association between these epitopes is rejected using a chi-square test for significance - only a handful of discordant combinations survive at high frequency.
 
-Luksza et al. argue that two factors dictate strain fitness: adaptive epitope mutations and detrimental non-epitope changes. Using genomic data, the authors predict evolution of influenza clades from a year to the next. They predict clade frequency in the next season: $$ \hat{X_v}(t+1) = \sum_{i:v,t}x_ie^{f_i} $$
-They also want the f_i for each strain to change based on deleterious mutations in i and cross-immunity to strains that have appeared previously: $$f_i = f_0 - L(a_i) - \sum_{j:t_j<t_i}x_jc(a_i,a_j)$$
+Luksza et al. argue that two factors dictate strain fitness: adaptive epitope mutations and detrimental non-epitope changes. Using genomic data, the authors predict evolution of influenza clades from a year to the next. They predict clade frequency in the next season: $$ \hat{X_v}(t+1) = \sum_{i:v,t}x_ie^{f_i} $$.
+They also want the f_i for each strain to change based on deleterious mutations in i and cross-immunity to strains that have appeared previously: $$f_i = f_0 - L(a_i) - \sum_{j:t_j<t_i}x_jc(a_i,a_j)$$.
 The value of the cross-immunity function depends on changes in strain i and in strain j (a_i and a_j).
-$$ W_v = X_v(t+1)/X_v(t) $$ The predicted W_v for some clades is greater than one (mostly because antigenic mutations appear in the context of a lineage that has had more fitness-enhancing mutations recently).
+$$ W_v = X_v(t+1)/X_v(t) $$. The predicted W_v for some clades is greater than one (mostly because antigenic mutations appear in the context of a lineage that has had more fitness-enhancing mutations recently).
 
