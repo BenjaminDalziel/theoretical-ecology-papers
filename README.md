@@ -1,4 +1,4 @@
-# theoretical-ecology-papers
+# Some Reading in Theoretical Ecology
 
 ## Schedule
 
