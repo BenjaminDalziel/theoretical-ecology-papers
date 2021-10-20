@@ -1,6 +1,6 @@
-# Some Reading in Theoretical Ecology
+# Some Readings in Theoretical Ecology
 
-## Schedule
+## Discussion Schedule
 
 Date    |     Topic     |     Papers
 --------|---------------|-------------
