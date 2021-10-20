@@ -1,0 +1,4 @@
+# Commentary on Allen et al. 2017
+
+## Rachael 
+Allen et al. investigate graph conditions that lead to cooperation. In this context, weak selection means that the game doesn't have a big impact on reproductive success and P(A fixation) greater than P(B fixation) means that selection favors A. The authors explain that times until random walks meet (coalescense times) are based on p_ij (a step from vertex i to vertex j has probability p_ij). T (the time it takes until there is either fixation or extinction) - tau_ij is the expected time during which i and j have the same type (A (cooperator) or B(defector)?). An individual pays cost c when it is a cooperator and receives benefit b when its neighbors are cooperators. Lastly, p_i needs to be large for cooperation to occur, and they frame this in terms of benefit and cost: (b/c) must be greater than k. Interestingly, the threshold b/c* can differ even if average network degree is the same. 
