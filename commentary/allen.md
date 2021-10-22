@@ -8,7 +8,7 @@ I think this paper is using coalescence times (time to meet as a result of rando
 
 ## Bryan
 This paper takes a classic game theory payoff matrix and applies it to a structured graph so that individuals aren't randomly interacting with each other (as in many agent based models) but are instead interacting with their neighbors. The authors consider two types of payoff matrices: a 'classic' one and a donation game. Further they consider the impact the topology of the graph will have on the spread or disappearance of cooperation. A main result is that cooperators needed to have a payoff higher than that of an individual two-degrees-of-separation away. This follows logic, since the cooperator would compete with those individuals for reproductive space. 
-# Thoughts I had while reading it: 
+### Thoughts I had while reading it: 
 If the population will all reach a state of A or B, does that mean one of the strategies is an ESS? Could that have been computed by the payoff matrix? 
 I don’t understand figure 2’s line graphs. 
 Why a b/c ratio and not c/b ratio? Most people are unlikely to produce a cooperative benefit for the group when the cost is larger than the benefit. Exploring a c/b ratio would then give a range where c/b is in (0,1), instead of having b/c>1. Further b/c -> infty as c->0 whereas c/b->0 as c->0 and that feels better in my heart. 
