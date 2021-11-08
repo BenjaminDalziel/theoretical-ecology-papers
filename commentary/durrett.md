@@ -48,4 +48,6 @@ I think one of the cleverest parts of this paper was the consideration and plann
 
 
 ## Ben
-Overall - ecological models can be sensitive to assumptions about space, stochastiticity and individuallity. Initial conditions can matter. The degree of sensitivity to space, stochasticity, individuality and initial conditions depends on the system, in ways that may not me predictable in advance. [in progress]
+This is a key citation for a cornerstone fact in the business, that is still underappreciated: ecological models can be sensitive to how space, stochastiticity and individuallity are represented. And not just _if_ they are included, but _how_ they are included. The degree of sensitivity to how space, stochasticity, individuality are represented depends on the system, in ways that may not be predictable _a priori_. 
+
+When starting out to write a model one is almost immediately faced with a dizzying array of 'design decisions' - will this be a stochastic model? How will space be handled, if at all? The bottom line is these decisions can matter. It is often necessary to construct different versions of the model where space, stochasticity and individuality are handled differently, in order to explore the robustness of the results. The paper also provides an aspiring modeler with examples about how to think that aren't written down often enough, for example, what exactly we might mean when we say something happens at rate _r_.
