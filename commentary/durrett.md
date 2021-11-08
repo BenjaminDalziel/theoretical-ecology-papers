@@ -48,4 +48,4 @@ I think one of the cleverest parts of this paper was the consideration and plann
 
 
 ## Ben
-Overall - ecological models can be sensitive to assumptions about space, stochastiticity and individuallity. The degree of sensitivity depends on details of the system. [in progress]
+Overall - ecological models can be sensitive to assumptions about space, stochastiticity and individuallity. Initial conditions can matter. The degree of sensitivity to space, stochasticity, individuality and initial conditions depends on the system, in ways that may not me predictable in advance. [in progress]
