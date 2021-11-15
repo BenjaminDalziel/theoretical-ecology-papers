@@ -25,3 +25,12 @@ Since this is the case, we can estimate the number of 'events' that occur using 
 Connecting ODE methods but also allowing for stochastic extinction in systems is really important for my research.
 The Gillespie approximation of SIR models can give a better sense for how likely an infection is to die out in a system, instead of the ODE model which always has the infection causing a outbreak.
 Very cool stuff.
+
+## Emily
+
+Gillespie provides a review of the evolution of modeling techniques for chemical kinetics, beginning with a discussion of the oft-used ODE system and purporting that for small systems this method fails to capture the natural discreteness of the system being modeled. So, we turn to models that take into account the discrete and stochastic nature of chemical reactions. The general framework for this discretized approach is to view molecules independently and to track these individual molecules and their reactions. From this step, the issue lies in finding methods of modeling that provide enough accuracy while allowing simulations to run in a reasonable time. 
+
+The most basic forms of these stochastic models move forward one time increment in each step, but this system can be improved in many cases by increasing time at each step by some amount $\tau$ in a process called tau-leaping. This process sacrifices exactness, but provides a good approximation in many scenarios by selecting $\tau$ from Poisson random numbers. One can use different bounds for this in order to ensure the model is “good enough.” This can further be streamlined by replacing Poisson numbers with normal random numbers, a further approximation that can speed simulation time.
+
+This process can fail in a stiff system, where there are groups of fast and slow reacting molecules. In this case, even the process of tau leaping is too slow, since the large number of reactions happening in the “fast” category forces $\tau$ to be small and therefore tau-leaping to be of little use. Some progress has been made on this problem by partitioning the system into fast and low reactions and modeling each with different methods, but there is still room for improvement in this area.
+
