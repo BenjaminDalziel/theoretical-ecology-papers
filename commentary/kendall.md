@@ -37,3 +37,9 @@ I really like this style of paper that does the dual role of doing primary resea
 Kendall and colleagues make it easy to use their schema to construct your own MPM and do it without making the common mistakes that they see.
 I did find it interesting that they authors still concluded that these imperfect models did a decent job at making larger scale inferences.
 I feel like it reiterates the old addage about models being useful even if they aren't completely accurate.
+
+## Bryan
+
+This paper does for matrix population models what I wish there was a paper would do for the Gillespie Algorithm! It takes something that isn't always intuitive and simple and breaks down the components and identifies easy places where our naive intuition and the math may not agree. 
+I think these sort of bathtub models in particular, since we can draw nice graphs with arrows, can become mathematically not-quite-right rather quickly when we take a biologist's approach and just think of things moving in and out the stages - and don't consider the underlying matrix and mathematics that are taking place. 
+In particular - I think the breakdown of pre vs post breeding models (and the cartoons they included to demonstrate this) is extremely useful for both the novice and well seasoned modeler! 
