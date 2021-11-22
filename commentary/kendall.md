@@ -24,3 +24,16 @@ This paper was interesting and very helpful to see how small errors can affect t
 
 ![image](https://user-images.githubusercontent.com/92698815/142801250-57ea1bce-82ac-48ca-98fe-4d73b7e8567e.png)
 
+## Noah
+
+This paper by Kendall and colleagues does a great job both explaining how to properly construct matrix population models (MPM) while also describing common pitfalls.
+It does what we had talked about last week in tht it takes some complicated mathematical concepts and gives step by step instructions on how to make these models.
+The common mistakes they describe seem like the would be easy to make without super careful thought about what the model is doing.
+The first pitfall is the discrepency between the fertility coefficient and the birth rate, since it is important to think about which parents are actually surviving to reproduction.
+The second is ensuring that the structure of the model (especially for postbreeding models) correctly identifies when individuals make the transition from non-breeding to breeding as they age.
+The final pitfall has to do with how individuals age when they are in a specific developmental stage, since failing to do this properly can misrepresent how individuals age from one stage to another.
+
+I really like this style of paper that does the dual role of doing primary research on models that have been published in the past, while also be instructive to the reader.
+Kendall and colleagues make it easy to use their schema to construct your own MPM and do it without making the common mistakes that they see.
+I did find it interesting that they authors still concluded that these imperfect models did a decent job at making larger scale inferences.
+I feel like it reiterates the old addage about models being useful even if they aren't completely accurate.
