@@ -1,5 +1,7 @@
 # Commentary on Kendall et al. 2019
 
+## Ben
+Age- or stage- structured population models are widely used and their principles are understood by most ecologists. However, building these models for empirical systems requires careful attention to details. The order of events matters, such as the timing of breeding versus when survival is censused. The specific meaning of fecundity is important - contributions to the first age or stage class represent both a reproduction and a survival effect. This is a great paper to refer to if building an age or stage structured model, and a great general example of how bringing theory to empirical application can improve the theory, by motivating more careful consideration of the definitions of the parameters in the model. Also, the rate of errors that the authors found in the literature was sobering, and speaking to the importance of reproducibility, so that such errors can be discovered by future studies, and to the importance of quantitative training for ecologists. I'm going to go back to my population biology notes and update them after treading this paper. 
 
 
 
