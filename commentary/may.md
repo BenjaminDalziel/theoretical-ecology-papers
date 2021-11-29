@@ -22,3 +22,8 @@ The implications of this are very interesting to me and how we think about the d
 I think it is often stated that diverse communities are more stable than non-diverse ones.
 However, this paper seems to imply that this diversity should be matched with weak interactions between the species that are in the system, or possible with lots of species, but lots of negative interactions.
 Systems with less diversity are usually stable, and can have stronger interactions between the species, especially positive ones, though that still has a limit.
+
+## Isaac
+This paper was very insteristing to read because  it allows us to understand stability in systems between species in regards to their connectance. It is interesting to see that other papers have build upon this concept. SOme by including ecological interation (comptetion, mutualism, etc) and dispersal among patches. 
+The only part of this parper that I little confused was when May mention a the statistical distribution would be used, but it did not mention which one. 
+
