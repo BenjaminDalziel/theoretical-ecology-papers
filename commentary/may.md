@@ -27,3 +27,5 @@ Systems with less diversity are usually stable, and can have stronger interactio
 This paper was very insteristing to read because  it allows us to understand stability in systems between species in regards to their connectance. It is interesting to see that other papers have build upon this concept. SOme by including ecological interation (comptetion, mutualism, etc) and dispersal among patches. 
 The only part of this parper that I little confused was when May mention a the statistical distribution would be used, but it did not mention which one. 
 
+One interesting app;lication is the idea of introducing a disturbance element to the system and seing how long it takes the system to become stable or if ever does. I thought that was the highlight of the paper.
+
